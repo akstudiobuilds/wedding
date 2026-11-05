@@ -175,3 +175,6 @@ body,.wedding-experience.v3-red-invite{background:#f8f0e1}
  .wedding-experience.v3-red-invite .fn-main .fn-time{font-size:23px}
 }
 .wedding-experience.v3-red-invite .v3-invited-by{margin:22px auto 0;padding-inline:16px;text-align:center}
+/* Bride and groom names. Change this one font to restyle them everywhere. */
+.wedding-experience{--f-names:'Great Vibes','Pinyon Script',cursive}
+.wedding-experience.v3-red-invite .si-opening-copy h1,.wedding-experience.v3-red-invite .v3-classic-interior :is(.garden-title,.garden-title *,.v3-bride-name,.v3-bride-name *){font-family:var(--f-names)!important;font-weight:400!important;letter-spacing:0!important}

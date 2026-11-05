@@ -39,7 +39,7 @@ export const wedding = {
     celebrationHeading: 'The wedding',
   },
 
-  // Shown under the closing line. While names is empty, the section is hidden.
+  // Shown at the bottom of the footer. While names is empty, the section is hidden.
   invitedBy: { label: 'Invited by', names: ['Smt. Sara Jayasri - Sara Nagarjuna'] },
 
   // Put your files in public/ and point to them here. Keep similar proportions for the best fit.
