@@ -175,6 +175,9 @@ body,.wedding-experience.v3-red-invite{background:#f8f0e1}
  .wedding-experience.v3-red-invite .fn-main .fn-time{font-size:23px}
 }
 .wedding-experience.v3-red-invite .v3-invited-by{margin:22px auto 0;padding-inline:16px;text-align:center}
-/* Bride and groom names. Change this one font to restyle them everywhere. */
-.wedding-experience{--f-names:'Great Vibes','Pinyon Script',cursive}
-.wedding-experience.v3-red-invite .si-opening-copy h1,.wedding-experience.v3-red-invite .v3-classic-interior :is(.garden-title,.garden-title *,.v3-bride-name,.v3-bride-name *){font-family:var(--f-names)!important;font-weight:400!important;letter-spacing:0!important}
+/* Bride and groom names. Tangerine runs small, so the sizes below are larger than the other fonts here. */
+.wedding-experience{--f-names:'Tangerine','Pinyon Script',cursive}
+.wedding-experience.v3-red-invite .si-opening-copy h1,.wedding-experience.v3-red-invite .v3-classic-interior :is(.garden-title,.garden-title *,.v3-bride-name,.v3-bride-name *){font-family:var(--f-names)!important;font-weight:700!important;letter-spacing:0!important}
+.wedding-experience.v3-red-invite .si-stage .si-opening-copy h1{font-size:clamp(58px,17.5vw,110px)}
+.wedding-experience.v3-red-invite .v3-classic-interior :is(.garden-title,.v3-bride-name){font-size:clamp(52px,16vw,92px)}
+@media(max-width:760px) and (max-height:640px){.wedding-experience.v3-red-invite .si-stage .si-opening-copy h1{font-size:52px}}

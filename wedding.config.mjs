@@ -29,6 +29,7 @@ export const wedding = {
   },
 
   text: {
+    between: 'with', // word between the two names
     openingKicker: 'WITH LOVE, YOU’RE INVITED',
     openButton: 'Here’s your invitation 💌',
     openingNote: 'With divine grace and the blessings of our elders',
